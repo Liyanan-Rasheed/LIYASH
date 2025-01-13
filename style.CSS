@@ -1,0 +1,41 @@
+h2{
+    text-align: center;
+    background-color: blanchedalmond;
+    border:2px;
+    border-style: ridge;
+    border-color: black;
+
+}
+h3{
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    background-color: blanchedalmond;
+}
+h4{
+
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    background-color: blanchedalmond;
+}
+h5{
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    background-color: blanchedalmond;
+}
+    table,th,tr
+    {
+        border: 2px;
+    }
+    img{
+        width: 200px;
+        height: 100px;
+    }
+    .cmmr{
+        background-color: aqua;
+        border-style: ridge;
+        border-color: black;
+    
+    }
