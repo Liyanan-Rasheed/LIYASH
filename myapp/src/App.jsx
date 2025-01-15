@@ -7,6 +7,9 @@ import SignUp from './components/SignUp'
 import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import State from './components/State'
+import Counter from './components/Counter'
+import Name from './components/Name'
+import Api from './components/Api'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +24,9 @@ function App() {
         <Route path="/log" element ={<Login/>}/>
         <Route path="/sign" element ={<SignUp/>}/>
         <Route path="/state" element={<State/>}/>
-      
+        <Route path="/Counter"element={<Counter/>}/>
+        <Route path="/Name"element={<Name/>}/>
+        <Route path="/Api"element={<Api/>}/>
       </Routes>
       
     </div>

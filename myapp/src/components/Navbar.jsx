@@ -13,7 +13,7 @@ const Navbar = () => {
     <div>
     <AppBar>
       <Toolbar>
-        <h1>My app</h1>&nbsp;
+        <h1>My app</h1>&nbsp; &nbsp;
         <Link to='/log'>
         <Button variant="contained">Login</Button>&nbsp; &nbsp;
         </Link>
@@ -23,9 +23,16 @@ const Navbar = () => {
       <Link to='/state'>
      <Button variant="contained">State</Button>&nbsp; &nbsp;
       </Link>
+      <Link to='/Counter'>
+     <Button variant="contained">Count</Button>&nbsp; &nbsp;
+      </Link>
       
-  
-    
+      <Link to='/Name'>
+     <Button variant="contained">RAV</Button>&nbsp; &nbsp;
+      </Link>
+      <Link to='/Api'>
+     <Button variant="contained">API</Button>&nbsp; &nbsp;
+      </Link>
       </Toolbar>
     </AppBar>
 
