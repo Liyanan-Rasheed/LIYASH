@@ -17,7 +17,7 @@ const Add = () => {
       
         <br /><br /><br /> 
         <Link to='/home'>
-                          <Button variant="contained">HOME</Button>
+        <Button variant='contained'style={{backgroundColor:"white",color:"black"}}>HOME</Button>
                       </Link>
   
       

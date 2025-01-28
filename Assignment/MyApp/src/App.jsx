@@ -3,8 +3,8 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import View from './View'
 import Add from './Add'
-import Home from '@mui/icons-material/Home'
-import Navbar from './components/navbar'
+import Home from './components/home'
+import Navbar from './components/Navbar'
 
 function App() {
 
